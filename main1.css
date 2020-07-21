@@ -1,0 +1,56 @@
+#background-image{
+  position: relative;
+  padding= 0;
+  
+  overflow: hidden;
+  height: 707px;
+  width: -webkit-fill-available;
+  background-image: url(../image/pic1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.nav-item.active 
+{
+	padding-left: 100px;
+	
+}
+
+.navbar-brand{
+	padding-left: 30px;
+	font-size: 35px;	
+}
+
+.container {
+  position: absolute;
+  
+}
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 16px;
+  font-size: 50px;
+}
+
+.form{
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  background-color: #A9A9A9;
+  padding: 30px;
+
+}
+
+body{
+	height: 100%;
+	margin: 0;
+}
+
+.form-control{
+	margin-bottom: 30px;
+}
